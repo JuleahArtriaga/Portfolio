@@ -25,46 +25,27 @@
   }
   
   .wrapper div {
-    border: 5px double rgb(99, 26, 99);
+    border: 5px double rgb(28, 92, 97);
     border-radius: 7rem;
     padding: 7px;
     text-align: center;
   }
   
-  .moon {
+  .Sunset and Silhouette{
     grid-column: 1/2;
   }
   
-  .sunrise {
+  .Flowers
+   {
     grid-column: 2/3;
   }
   
-  .sunset {
+  .Nature{
     grid-column: 3/4;
   }
   
-  .seascapes {
+  .Man Made{
     grid-column: 4/5;
-  }
-  
-  .plants {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-  
-  .people {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  
-  .market {
-    grid-column: 3/4;
-    grid-row: 2/3;
-  }
-  
-  .structures {
-    grid-column: 4/5;
-    grid-row: 2/3;
   }
 
   .icons {
