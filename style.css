@@ -1,57 +1,57 @@
 * {
-    margin: 1%;
-    padding: 0;
-    scroll-behavior: smooth;
+  margin: 1%;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-    
-  body {
-    
-    font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-    line-height: 200%;
-    min-height: 100vh;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    border: 2px solid #5b5063;
-  }
 
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
-  }
-  
-  .wrapper div {
-    border: 5px double rgb(28, 92, 97);
-    border-radius: 7rem;
-    padding: 7px;
-    text-align: center;
-  }
-  
-  .Sunset and Silhouette{
-    grid-column: 1/2;
-  }
-  
-  .Flowers
-   {
-    grid-column: 2/3;
-  }
-  
-  .Nature{
-    grid-column: 3/4;
-  }
-  
-  .Man Made{
-    grid-column: 4/5;
-  }
+body {
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  line-height: 200%;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 2px solid #2601ca;
+  /* border: hidden; */
+}
 
-  .icons {
-    border-radius: 50%;
-  }
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.wrapper div {
+  border: 5px double rgb(28, 92, 97);
+  border-radius: 7rem;
+  padding: 7px;
+  text-align: center;
+}
+
+.Sunset and Silhouette {
+  grid-column: 1/2;
+}
+
+.Flowers {
+  grid-column: 2/3;
+}
+
+.Nature {
+  grid-column: 3/4;
+}
+
+.Man Made {
+  grid-column: 4/5;
+}
+
+.icons {
+  border-radius: 50%;
+}
 
 footer {
-    text-align: center;
+  text-align: center;
 }
