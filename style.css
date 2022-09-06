@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper div {
-  border: 5px double rgb(28, 92, 97);
+  border: 5px groove rgb(181, 91, 49);
   border-radius: 7rem;
   padding: 7px;
   text-align: center;
