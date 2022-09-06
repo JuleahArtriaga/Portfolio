@@ -32,7 +32,7 @@ body {
   text-align: center;
 }
 
-.Sunset and Silhouette {
+.Sunset {
   grid-column: 1/2;
 }
 
@@ -44,12 +44,17 @@ body {
   grid-column: 3/4;
 }
 
-.Man Made {
+.ManMade {
   grid-column: 4/5;
 }
 
 .icons {
   border-radius: 50%;
+}
+
+.frame {
+  padding: 10px;
+  background-color: rgba(204, 191, 9, 0.391);
 }
 
 footer {
