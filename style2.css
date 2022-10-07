@@ -167,7 +167,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 360px) {
   body {
     overflow: hidden;
     display: grid;
