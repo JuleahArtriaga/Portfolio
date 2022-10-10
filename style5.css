@@ -80,4 +80,44 @@ img {
     background-size: 1365px 625px;
     display: grid;
   }
+
+  @media screen and (max-width: 320px) {
+    body {
+      padding: 25px;
+      background: url(./img/background.png);
+      background-size: 320px x 515px;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      overflow: hidden;
+    }
+
+    .pic1 {
+      /* grid-column: 2 / 4; */
+      grid-row: 3 / 4;
+      rotate: -8deg;
+      margin-left: 80px;
+      margin-top: 60px;
+      z-index: 2;
+    }
+
+    .pic2 {
+      /* grid-column: 3 / 5; */
+      grid-row: 3 / 4;
+      rotate: 8deg;
+      margin-top: 250px;
+      margin-left: 50px;
+    }
+
+    .pic3 {
+      /* grid-column: 2 / 4; */
+      grid-row: 3 / 4;
+      rotate: -8deg;
+      margin-right: 70;
+      margin-top: 280px;
+    }
+
+    .text {
+      justify-content: center;
+    }
+  }
 }
