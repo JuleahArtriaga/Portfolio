@@ -81,7 +81,7 @@ img {
     display: grid;
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 375px) {
     body {
       background: url(./img/background.png);
       background-size: 320px;
